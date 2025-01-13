@@ -1,0 +1,8 @@
+# config/config.yaml
+disciplines:
+  - name: physicians
+    theory_of_good: ethical_models.physicians.physician_ethics.PhysicianEthics
+    theory_of_right: ethical_models.physicians.physician_standards.PhysicianStandards
+  - name: combat_medics
+    theory_of_good: ethical_models.combat_medics.combat_medic_ethics.CombatMedicEthics
+    theory_of_right: ethical_models.combat_medics.combat_medic_standards.CombatMedicStandards
