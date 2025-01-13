@@ -6,7 +6,7 @@ import subprocess
 # Constants
 SCHEMA_URL = "https://raw.githubusercontent.com/NextCenturyCorporation/itm-evaluation-server/development/swagger/swagger.yaml"
 SCHEMA_FILE = "current_schema.yaml"
-OUTPUT_DIR = "./src/itm_schema"
+OUTPUT_DIR = "./models/itm_schema"
 TMP_DIR = "./tmp"
 
 def download_schema():
